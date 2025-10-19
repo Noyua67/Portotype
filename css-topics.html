@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Topics</title>
+  <style>
+    body {
+      background-image: url(tupid.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #003366;
+      padding: 15px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 8px;
+      background-color: rgba(0, 51, 102, 0.8);
+      transition: all 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #ffcc00;
+      color: #003366;
+      transform: scale(1.1);
+    }
+
+    /* Topics Section */
+    .topics {
+      margin: 100px auto;
+      width: fit-content;
+      font-size: 28px;
+      color: white;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px 30px;
+      border-radius: 12px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    }
+
+    .topics ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+
+    .topics a {
+      display: block;
+      margin: 15px 0;
+      text-decoration: none;
+      color: white;
+      font-size: 24px;
+      background-color: rgba(0,0,0,0.4);
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .topics a:hover {
+      background-color: rgba(255, 204, 0, 0.8);
+      color: #003366;
+    }
+
+    /* Sticky Footer */
+    footer {
+      font-size: 12px;
+      color: white;
+      opacity: 0.7;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0,0,0,0.3);
+      padding: 5px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="css-topics.html">CSS Topics</a></li>
+    </ul>
+  </nav>
+
+  <div class="topics">
+    <ul>
+      <li><a href="rufus-installation.html">Rufus Installation</a></li>
+      <li><a href="format-step-by-step.html">Format Step by Step</a></li>
+      <li><a href="malwarebytes-installation.html">Malwarebytes Installation</a></li>
+      <li><a href="drivers-installation.html">Drivers Installation</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    Background image source: <a href="https://www.britannica.com/story/history-of-technology-timeline#/media/1/2268590/319453" target="_blank">Encyclopedia Britannica</a>
+  </footer>
+</body>
+</html>

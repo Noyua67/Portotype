@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+    body {
+      background-image: url(tupid.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background-color: #003366;
+      padding: 15px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px; /* bigger font */
+      font-weight: bold;
+      padding: 10px 20px; /* button padding */
+      border-radius: 8px; /* rounded corners */
+      background-color: rgba(0, 51, 102, 0.8); /* semi-transparent dark blue button */
+      transition: all 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #ffcc00; /* bright hover color */
+      color: #003366; /* dark text on hover */
+      transform: scale(1.1); /* slight grow effect */
+    }
+
+    /* Main Title */
+    .welcome-text {
+      margin: 50px 20px;
+      font-size: 72px; /* doubled for main title */
+      font-weight: bold;
+      color: white;
+      text-align: left;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px 30px;
+      border-radius: 12px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+      max-width: 90%;
+    }
+
+    /* Paragraph below title */
+    .intro-text {
+      margin: 20px 20px;
+      font-size: 24px; /* doubled base size */
+      color: white;
+      max-width: 800px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px 25px;
+      border-radius: 10px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+      line-height: 1.6;
+    }
+
+    /* Sticky Footer */
+    footer {
+      font-size: 12px;
+      color: white;
+      opacity: 0.7;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(0,0,0,0.3); /* subtle background */
+      padding: 5px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="css-topics.html">CSS Topics</a></li>
+    </ul>
+  </nav>
+
+  <div class="welcome-text">Welcome, CSS Students</div>
+
+  <div class="intro-text">
+    This website is designed for Grade 12 Computer System Servicing students. 
+    Explore topics, guides, and lessons to improve your technical skills and knowledge.
+  </div>
+
+  <footer>
+    Background image source: <a href="https://www.britannica.com/story/history-of-technology-timeline#/media/1/2268590/319453" target="_blank">Encyclopedia Britannica</a>
+  </footer>
+
+</body>
+</html>
